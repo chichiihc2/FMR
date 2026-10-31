@@ -1,0 +1,15 @@
+^run_.*\.R$
+^install\.R$
+^paper$
+^lib$
+^simulations$
+^realdata$
+^reference$
+^data$
+^output$
+^renv\.lock$
+^README\.md$
+^\.here$
+^\.gitignore$
+^.*\.Rproj$
+^\.Rproj\.user$

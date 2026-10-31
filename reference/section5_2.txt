@@ -1,0 +1,18 @@
+Amyloid PET -> FAQ (n = 497, 420 variants)
+  FPCA scores k = 4, first-stage F = 20.4, partial R^2 = 0.142
+  FMR        beta =  0.75, bootstrap-t P = 1.7e-05, 95% CI [0.41, 1.09]
+  F2SLS      beta =  0.42, P = 1.4e-04
+  2SLS       beta =  0.47, P = 8.4e-07 (rs429358, rs7412; first-stage F = 58.2)
+  sisVIVE    beta =  0.47, invalid instruments selected: 0
+  paired bootstrap: FMR - F2SLS P = 0.018, FMR - 2SLS P = 0.029
+  T_alpha P = 0.003; Sargan P = 0.492
+
+BMI -> ADAS13 (n = 774, 420 variants)
+  FPCA scores k = 3, first-stage F = 3.8, partial R^2 = 0.015
+  FMR        beta = -2.13, bootstrap-t P = 0.125, 95% CI [-4.86, 0.59]
+  F2SLS      beta = -1.34, P = 0.004
+  2SLS       beta = -1.98, P = 6.7e-05 (rs429358, rs7412; first-stage F = 9.3)
+  sisVIVE    beta = -1.98, invalid instruments selected: 0
+  paired bootstrap: FMR - F2SLS P = 0.231, FMR - 2SLS P = 0.794
+  T_alpha P = 0.190; Sargan P = 0.896
+

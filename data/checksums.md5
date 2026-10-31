@@ -1,0 +1,12 @@
+6633bce7a87fd1b9959bd300c0e7dfae  data/raw/filtered_ADNI_808_plink2.bed
+127f72b501aebcde783912f7bec29ebb  data/raw/filtered_ADNI_808_plink2.bim
+ec76e274e968fe3930c3c5c25c550a47  data/raw/filtered_ADNI_808_plink2.fam
+2e4467fe38bec18c957daf1892e09d85  data/raw/PTID.csv
+c7c9fc88496b8c55aca308e8fbdf2685  data/raw/data_cleaned_demo.csv
+b2af498f7a14174104af2c301a6bc18f  data/raw/ADNI_Gene_Expression_Profile.csv
+e4d52641189f0c8b3ed9a2c1b9faa8cc  data/raw/ADNIMERGE2/data/ADAS.rda
+767343bf8ca5427c60614a7225e0239b  data/raw/ADNIMERGE2/data/ADSP_PHC_PET_Amyloid_Simple.rda
+45ca4299158afafd15ec520e88e1af88  data/raw/ADNIMERGE2/data/FAQ.rda
+5da09f4fcce0cc64a87d1a960b46ae77  data/raw/ADNIMERGE2/data/PTDEMOG.rda
+9d0ee46500d486ac23ff752d08e3ec6e  data/raw/ADNIMERGE2/data/VITALS.rda
+66214ed72a73d5999733c1cf0158b4ce  data/raw/ADNIMERGE2.tar.gz

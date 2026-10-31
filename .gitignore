@@ -1,0 +1,16 @@
+# ADNI data are access-restricted: never commit them
+data/raw/*
+data/processed/*
+data/external/eqtlgen/
+# results of the real-data analysis (ADNI-derived) and generated output
+realdata/gene_expression/results/
+realdata/apoe/results/
+output/
+simulations/results_check/
+simulations/results_rerun/
+simulations/results/*/cell_*.rds
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+*.Rcheck/

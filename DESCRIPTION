@@ -1,0 +1,34 @@
+Package: FMR
+Title: Functional Mendelian Randomization with a Functional Instrument
+Version: 1.0.0
+Authors@R: c(
+    person("Chi-Shian", "Dai", role = c("aut", "cre"), email = "cdai@gs.ncku.edu.tw",
+           comment = c(ORCID = "0009-0003-9711-6295")),
+    person("Cai", "Li", role = "aut"))
+Description: Estimates the causal effect of an exposure on an outcome when the instrument
+    is a function, such as the genotype of the variants of a gene indexed by genomic
+    position, and allows a direct (pleiotropic) effect of the instrument on the outcome.
+    The instrument enters through its functional principal component scores, the direct
+    effect is a penalized B-spline with the penalty chosen by generalized cross-validation,
+    and inference uses a bootstrap-t interval studentized by the sandwich standard error.
+    Also provides the test of no direct effect and the paper's simulation design.
+License: MIT + file LICENSE
+URL: https://github.com/chichiihc2/FMR
+BugReports: https://github.com/chichiihc2/FMR/issues
+Depends: R (>= 4.3)
+Imports:
+    dr,
+    fda,
+    graphics,
+    grDevices,
+    MASS,
+    mvtnorm,
+    refund,
+    stats
+Suggests:
+    ivreg,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = FALSE)
+RoxygenNote: 7.3.3

@@ -1,0 +1,7 @@
+genes with expression data and at least 10 variants: 14693
+genes with at least three FPCA scores (analysed):     10386
+gene expression-outcome tests:                        51923
+Bonferroni threshold 0.05 / 51923 = 9.63e-07
+FMR bootstrap p below the threshold:  0 (smallest p = 5.3e-04)
+T_alpha p below the threshold:        PVRL2-ADAS13 (p = 4.8e-07)
+ten leading pairs: F 11.5 to 185.8, partial R^2 0.076 to 0.680
